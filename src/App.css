@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+/* Full page */
+*{background-color:burlywood
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#root{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-evenly; 
+}
+h1 {
+  background-color: blanchedalmond;
+  margin-top: 0;
+  border: 3px double coral;
+  font-size: 40px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+/* Main list CSS */
+.ListWrap {
+  margin-top: 15px;
+  background-color: rgb(180, 113, 89);
+  width: fit-content;
+  border: 3px double coral;
+}
+.AddFunct{
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: flex-end;
+}
+button {
   color: white;
+  background-color: red;
 }
-
-.App-link {
-  color: #61dafb;
+.SubNew{
+background-color: wheat;
+color: goldenrod;
 }
+input {
+  color:blue;
+  background-color: blanchedalmond;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.ItemDone {
+  text-decoration: line-through;
+  opacity: 50%;
+  border: 1px solid coral;
+  background-color: blanchedalmond;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.ItemNot {
+  text-decoration: none;
+  border: 4px solid coral;
+  background-color: blanchedalmond;
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+/* editing section */
+.EditTask{
+  display: block;
+}
+.HideEdit{
+  display: none
+}
+/* Archieve section */
+.ArchiveWrap{
+  margin-top: 15px;
+  background-color: rgb(180, 113, 89);
+  width: fit-content;
+  border: 2px double cornsilk;
+}
+.ArchItem{
+  text-decoration: line-through;
+  background-color: rgb(202, 68, 68);
+  display: flex;
+  justify-content: flex-end;
+  font-size: 20px;
 }
