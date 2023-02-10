@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CodeNation-ToDo-Challenge/static/css/main.219b4038.css",
+    "main.js": "/CodeNation-ToDo-Challenge/static/js/main.77655306.js",
+    "index.html": "/CodeNation-ToDo-Challenge/index.html",
+    "main.219b4038.css.map": "/CodeNation-ToDo-Challenge/static/css/main.219b4038.css.map",
+    "main.77655306.js.map": "/CodeNation-ToDo-Challenge/static/js/main.77655306.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.219b4038.css",
+    "static/js/main.77655306.js"
+  ]
+}
